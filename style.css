@@ -85,11 +85,6 @@ button{
     /* background-color: rgb(66, 65, 65); */
 }
 
-#coding{
-    margin-bottom: 7vh;
-    height:70%;
-    background-color: royalblue;
-}
 
 #page1bottom{
     /* background-color: lightgreen; */
@@ -117,4 +112,26 @@ button{
 #page1bottom p{
     font-size: 1.2vw;
     opacity:0.6;
+}
+
+#coding{
+    height:70%;
+    margin-bottom: 7vh;
+    background-color: rgb(184, 197, 237);
+    /* display: flex; */
+    /* flex-direction: column; */
+    overflow: hidden;
+}
+
+
+.js-stem-path{
+    stroke-width: .1667rem;
+    stroke: black
+}
+
+.stem svg{
+    /* overflow: hidden; */
+    margin-top: -10px;
+    fill: none;
+    position: relative;
 }
