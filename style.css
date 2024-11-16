@@ -15,8 +15,106 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: wow;
+
 }
 html,body{
+    background-color: #FFFFFF;
     width: 100%;
     height: 100%;
+}
+
+
+nav{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding: 10px 30px;
+    position: fixed;
+    border-radius: 50px;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+nav img{
+    height: 25px;
+}
+nav #right{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+nav a{
+    font-family: wow;
+    font-size: 20px;
+    font-weight: 500;
+    color: #111;
+    text-decoration: none;
+}
+
+button{
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: wow;
+    border-radius: 50px;
+    border: none;
+    background-color: #70A2E1;
+}
+
+#page1{
+    padding: 2% 15%;
+    height: 100vh;
+    width: 100%;
+    padding-top: 10%;
+    /* background-color: rgb(20, 20, 20); */
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(45, 45, 45); */
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(66, 65, 65); */
+}
+
+#coding{
+    margin-bottom: 7vh;
+    height:70%;
+    background-color: royalblue;
+}
+
+#page1bottom{
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+}
+
+#page1bottom div{
+    width: 46%;
+}
+
+#page1bottom h1{
+    font-size: 6vw;
+    color:#333;
+}
+
+#page1bottom h3{
+    font-size: 1.8vw;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+#page1bottom p{
+    font-size: 1.2vw;
+    opacity:0.6;
 }
